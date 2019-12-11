@@ -98,7 +98,7 @@ public class CardPartPagedView: UIView, CardPartView {
         var bounds = scrollView.bounds
         bounds.origin.x = bounds.width * CGFloat(currentPage)
         bounds.origin.y = 0
-        scrollView.scrollRectToVisible(bounds, animated: animated)
+        scrollView.scrollRectToVisible(bounds, animated: true)
     }
     
 	fileprivate func updatePageControl() {

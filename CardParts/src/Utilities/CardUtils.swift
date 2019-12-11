@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 /*
  * Defines utility methods for cards.

@@ -7,13 +7,119 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EC15C21A239FD477009AF54F /* CardParts.h in Headers */ = {isa = PBXBuildFile; fileRef = EC15C218239FD477009AF54F /* CardParts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7855ED0DD944350476973644 /* Pods_CardParts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7D9AA47E051EB50C693D91 /* Pods_CardParts.framework */; };
+		EC45C22423A119F4007DA3C8 /* CardParts.h in Headers */ = {isa = PBXBuildFile; fileRef = EC45C1E723A119F4007DA3C8 /* CardParts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC45C22623A119F4007DA3C8 /* icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC45C1EA23A119F4007DA3C8 /* icons.xcassets */; };
+		EC45C22823A119F4007DA3C8 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1EE23A119F4007DA3C8 /* CardCell.swift */; };
+		EC45C22A23A119F4007DA3C8 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F023A119F4007DA3C8 /* CardsViewController.swift */; };
+		EC45C22B23A119F4007DA3C8 /* CardPartTableViewCardPartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F123A119F4007DA3C8 /* CardPartTableViewCardPartsCell.swift */; };
+		EC45C22C23A119F4007DA3C8 /* CardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F223A119F4007DA3C8 /* CardController.swift */; };
+		EC45C22D23A119F4007DA3C8 /* CardPartCollectionViewCardPartsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F423A119F4007DA3C8 /* CardPartCollectionViewCardPartsCell.swift */; };
+		EC45C22E23A119F4007DA3C8 /* CardPartCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F523A119F4007DA3C8 /* CardPartCollectionView.swift */; };
+		EC45C22F23A119F4007DA3C8 /* CardPartCenteredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F623A119F4007DA3C8 /* CardPartCenteredView.swift */; };
+		EC45C23023A119F4007DA3C8 /* CardPartTitleDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F723A119F4007DA3C8 /* CardPartTitleDescriptionView.swift */; };
+		EC45C23123A119F4007DA3C8 /* CardPartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F823A119F4007DA3C8 /* CardPartTableViewCell.swift */; };
+		EC45C23223A119F4007DA3C8 /* CardPartStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1F923A119F4007DA3C8 /* CardPartStackView.swift */; };
+		EC45C23323A119F4007DA3C8 /* CardPartSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FA23A119F4007DA3C8 /* CardPartSliderView.swift */; };
+		EC45C23423A119F4007DA3C8 /* CardPartSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FB23A119F4007DA3C8 /* CardPartSeparatorView.swift */; };
+		EC45C23523A119F4007DA3C8 /* CardPartOrientedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FC23A119F4007DA3C8 /* CardPartOrientedView.swift */; };
+		EC45C23623A119F4007DA3C8 /* CardPartSpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FD23A119F4007DA3C8 /* CardPartSpacerView.swift */; };
+		EC45C23723A119F4007DA3C8 /* CardPartTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FE23A119F4007DA3C8 /* CardPartTitleView.swift */; };
+		EC45C23823A119F4007DA3C8 /* CardPartBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C1FF23A119F4007DA3C8 /* CardPartBarView.swift */; };
+		EC45C23923A119F4007DA3C8 /* CardPartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20023A119F4007DA3C8 /* CardPartButtonView.swift */; };
+		EC45C23A23A119F4007DA3C8 /* CardPartPagedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20123A119F4007DA3C8 /* CardPartPagedView.swift */; };
+		EC45C23B23A119F4007DA3C8 /* CardPartRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20223A119F4007DA3C8 /* CardPartRadioButton.swift */; };
+		EC45C23C23A119F4007DA3C8 /* CardPartVerticalSeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20323A119F4007DA3C8 /* CardPartVerticalSeparatorView.swift */; };
+		EC45C23D23A119F4007DA3C8 /* CardPartIconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20423A119F4007DA3C8 /* CardPartIconLabel.swift */; };
+		EC45C23E23A119F4007DA3C8 /* CardPartProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20523A119F4007DA3C8 /* CardPartProgressBarView.swift */; };
+		EC45C23F23A119F4007DA3C8 /* CardPartPillLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20623A119F4007DA3C8 /* CardPartPillLabel.swift */; };
+		EC45C24023A119F4007DA3C8 /* CardPartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20723A119F4007DA3C8 /* CardPartView.swift */; };
+		EC45C24123A119F4007DA3C8 /* CardPartTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20823A119F4007DA3C8 /* CardPartTableView.swift */; };
+		EC45C24223A119F4007DA3C8 /* CardPartTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20923A119F4007DA3C8 /* CardPartTextField.swift */; };
+		EC45C24323A119F4007DA3C8 /* CardPartConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20A23A119F4007DA3C8 /* CardPartConfettiView.swift */; };
+		EC45C24423A119F4007DA3C8 /* CardPartHistogramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20B23A119F4007DA3C8 /* CardPartHistogramView.swift */; };
+		EC45C24523A119F4007DA3C8 /* CardPartTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20C23A119F4007DA3C8 /* CardPartTextView.swift */; };
+		EC45C24623A119F4007DA3C8 /* CardPartMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20D23A119F4007DA3C8 /* CardPartMapView.swift */; };
+		EC45C24723A119F4007DA3C8 /* CardPartTriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20E23A119F4007DA3C8 /* CardPartTriangleView.swift */; };
+		EC45C24823A119F4007DA3C8 /* CardPartImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C20F23A119F4007DA3C8 /* CardPartImageView.swift */; };
+		EC45C24923A119F4007DA3C8 /* CardPartsFullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21023A119F4007DA3C8 /* CardPartsFullScreenViewController.swift */; };
+		EC45C24A23A119F4007DA3C8 /* CardPartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21123A119F4007DA3C8 /* CardPartsViewController.swift */; };
+		EC45C24B23A119F4007DA3C8 /* CardPartsTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21223A119F4007DA3C8 /* CardPartsTheme.swift */; };
+		EC45C24C23A119F4007DA3C8 /* CardParts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21323A119F4007DA3C8 /* CardParts.swift */; };
+		EC45C24D23A119F4007DA3C8 /* CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21523A119F4007DA3C8 /* CALayer.swift */; };
+		EC45C24E23A119F4007DA3C8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21623A119F4007DA3C8 /* Date.swift */; };
+		EC45C24F23A119F4007DA3C8 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21723A119F4007DA3C8 /* Array.swift */; };
+		EC45C25023A119F4007DA3C8 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21823A119F4007DA3C8 /* UIColor.swift */; };
+		EC45C25123A119F4007DA3C8 /* NSObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21923A119F4007DA3C8 /* NSObjectProtocol.swift */; };
+		EC45C25223A119F4007DA3C8 /* UIBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21A23A119F4007DA3C8 /* UIBezierPath.swift */; };
+		EC45C25323A119F4007DA3C8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21B23A119F4007DA3C8 /* String.swift */; };
+		EC45C25423A119F4007DA3C8 /* UIResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21C23A119F4007DA3C8 /* UIResponder.swift */; };
+		EC45C25523A119F4007DA3C8 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21D23A119F4007DA3C8 /* UIButton.swift */; };
+		EC45C25623A119F4007DA3C8 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C21E23A119F4007DA3C8 /* UIFont.swift */; };
+		EC45C25723A119F4007DA3C8 /* CardUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C22023A119F4007DA3C8 /* CardUtils.swift */; };
+		EC45C25823A119F4007DA3C8 /* LayoutProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C22123A119F4007DA3C8 /* LayoutProxy.swift */; };
+		EC45C25923A119F4007DA3C8 /* CardVisibilityDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC45C22323A119F4007DA3C8 /* CardVisibilityDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		616A017E5EE084A0B53133AB /* Pods-CardParts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardParts.debug.xcconfig"; path = "Target Support Files/Pods-CardParts/Pods-CardParts.debug.xcconfig"; sourceTree = "<group>"; };
+		8A7D9AA47E051EB50C693D91 /* Pods_CardParts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CardParts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93180A11BFCFCC26468A098C /* Pods-CardParts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CardParts.release.xcconfig"; path = "Target Support Files/Pods-CardParts/Pods-CardParts.release.xcconfig"; sourceTree = "<group>"; };
 		EC15C215239FD477009AF54F /* CardParts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CardParts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC15C218239FD477009AF54F /* CardParts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardParts.h; sourceTree = "<group>"; };
-		EC15C219239FD477009AF54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC45C1E723A119F4007DA3C8 /* CardParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardParts.h; sourceTree = "<group>"; };
+		EC45C1E923A119F4007DA3C8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC45C1EA23A119F4007DA3C8 /* icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = icons.xcassets; sourceTree = "<group>"; };
+		EC45C1EB23A119F4007DA3C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC45C1EE23A119F4007DA3C8 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		EC45C1EF23A119F4007DA3C8 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC45C1F023A119F4007DA3C8 /* CardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		EC45C1F123A119F4007DA3C8 /* CardPartTableViewCardPartsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTableViewCardPartsCell.swift; sourceTree = "<group>"; };
+		EC45C1F223A119F4007DA3C8 /* CardController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardController.swift; sourceTree = "<group>"; };
+		EC45C1F423A119F4007DA3C8 /* CardPartCollectionViewCardPartsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartCollectionViewCardPartsCell.swift; sourceTree = "<group>"; };
+		EC45C1F523A119F4007DA3C8 /* CardPartCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartCollectionView.swift; sourceTree = "<group>"; };
+		EC45C1F623A119F4007DA3C8 /* CardPartCenteredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartCenteredView.swift; sourceTree = "<group>"; };
+		EC45C1F723A119F4007DA3C8 /* CardPartTitleDescriptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTitleDescriptionView.swift; sourceTree = "<group>"; };
+		EC45C1F823A119F4007DA3C8 /* CardPartTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTableViewCell.swift; sourceTree = "<group>"; };
+		EC45C1F923A119F4007DA3C8 /* CardPartStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartStackView.swift; sourceTree = "<group>"; };
+		EC45C1FA23A119F4007DA3C8 /* CardPartSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartSliderView.swift; sourceTree = "<group>"; };
+		EC45C1FB23A119F4007DA3C8 /* CardPartSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartSeparatorView.swift; sourceTree = "<group>"; };
+		EC45C1FC23A119F4007DA3C8 /* CardPartOrientedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartOrientedView.swift; sourceTree = "<group>"; };
+		EC45C1FD23A119F4007DA3C8 /* CardPartSpacerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartSpacerView.swift; sourceTree = "<group>"; };
+		EC45C1FE23A119F4007DA3C8 /* CardPartTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTitleView.swift; sourceTree = "<group>"; };
+		EC45C1FF23A119F4007DA3C8 /* CardPartBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartBarView.swift; sourceTree = "<group>"; };
+		EC45C20023A119F4007DA3C8 /* CardPartButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartButtonView.swift; sourceTree = "<group>"; };
+		EC45C20123A119F4007DA3C8 /* CardPartPagedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartPagedView.swift; sourceTree = "<group>"; };
+		EC45C20223A119F4007DA3C8 /* CardPartRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartRadioButton.swift; sourceTree = "<group>"; };
+		EC45C20323A119F4007DA3C8 /* CardPartVerticalSeparatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartVerticalSeparatorView.swift; sourceTree = "<group>"; };
+		EC45C20423A119F4007DA3C8 /* CardPartIconLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartIconLabel.swift; sourceTree = "<group>"; };
+		EC45C20523A119F4007DA3C8 /* CardPartProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartProgressBarView.swift; sourceTree = "<group>"; };
+		EC45C20623A119F4007DA3C8 /* CardPartPillLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartPillLabel.swift; sourceTree = "<group>"; };
+		EC45C20723A119F4007DA3C8 /* CardPartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartView.swift; sourceTree = "<group>"; };
+		EC45C20823A119F4007DA3C8 /* CardPartTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTableView.swift; sourceTree = "<group>"; };
+		EC45C20923A119F4007DA3C8 /* CardPartTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTextField.swift; sourceTree = "<group>"; };
+		EC45C20A23A119F4007DA3C8 /* CardPartConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartConfettiView.swift; sourceTree = "<group>"; };
+		EC45C20B23A119F4007DA3C8 /* CardPartHistogramView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartHistogramView.swift; sourceTree = "<group>"; };
+		EC45C20C23A119F4007DA3C8 /* CardPartTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTextView.swift; sourceTree = "<group>"; };
+		EC45C20D23A119F4007DA3C8 /* CardPartMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartMapView.swift; sourceTree = "<group>"; };
+		EC45C20E23A119F4007DA3C8 /* CardPartTriangleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartTriangleView.swift; sourceTree = "<group>"; };
+		EC45C20F23A119F4007DA3C8 /* CardPartImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartImageView.swift; sourceTree = "<group>"; };
+		EC45C21023A119F4007DA3C8 /* CardPartsFullScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartsFullScreenViewController.swift; sourceTree = "<group>"; };
+		EC45C21123A119F4007DA3C8 /* CardPartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartsViewController.swift; sourceTree = "<group>"; };
+		EC45C21223A119F4007DA3C8 /* CardPartsTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardPartsTheme.swift; sourceTree = "<group>"; };
+		EC45C21323A119F4007DA3C8 /* CardParts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardParts.swift; sourceTree = "<group>"; };
+		EC45C21523A119F4007DA3C8 /* CALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayer.swift; sourceTree = "<group>"; };
+		EC45C21623A119F4007DA3C8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		EC45C21723A119F4007DA3C8 /* Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		EC45C21823A119F4007DA3C8 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		EC45C21923A119F4007DA3C8 /* NSObjectProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.swift; sourceTree = "<group>"; };
+		EC45C21A23A119F4007DA3C8 /* UIBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBezierPath.swift; sourceTree = "<group>"; };
+		EC45C21B23A119F4007DA3C8 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		EC45C21C23A119F4007DA3C8 /* UIResponder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIResponder.swift; sourceTree = "<group>"; };
+		EC45C21D23A119F4007DA3C8 /* UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EC45C21E23A119F4007DA3C8 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		EC45C22023A119F4007DA3C8 /* CardUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardUtils.swift; sourceTree = "<group>"; };
+		EC45C22123A119F4007DA3C8 /* LayoutProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutProxy.swift; sourceTree = "<group>"; };
+		EC45C22323A119F4007DA3C8 /* CardVisibilityDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardVisibilityDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,17 +127,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7855ED0DD944350476973644 /* Pods_CardParts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1425193ED8456DEB59A418D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D9AA47E051EB50C693D91 /* Pods_CardParts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1761397771C5E4052BB844C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				616A017E5EE084A0B53133AB /* Pods-CardParts.debug.xcconfig */,
+				93180A11BFCFCC26468A098C /* Pods-CardParts.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EC15C20B239FD476009AF54F = {
 			isa = PBXGroup;
 			children = (
-				EC15C217239FD477009AF54F /* CardParts */,
+				EC45C1E723A119F4007DA3C8 /* CardParts.h */,
+				EC45C1E623A119F4007DA3C8 /* CardParts */,
 				EC15C216239FD477009AF54F /* Products */,
+				1761397771C5E4052BB844C6 /* Pods */,
+				1425193ED8456DEB59A418D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,13 +170,120 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC15C217239FD477009AF54F /* CardParts */ = {
+		EC45C1E623A119F4007DA3C8 /* CardParts */ = {
 			isa = PBXGroup;
 			children = (
-				EC15C218239FD477009AF54F /* CardParts.h */,
-				EC15C219239FD477009AF54F /* Info.plist */,
+				EC45C1EB23A119F4007DA3C8 /* Info.plist */,
+				EC45C1E823A119F4007DA3C8 /* Assets */,
+				EC45C1EC23A119F4007DA3C8 /* src */,
 			);
 			path = CardParts;
+			sourceTree = "<group>";
+		};
+		EC45C1E823A119F4007DA3C8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C1E923A119F4007DA3C8 /* .gitkeep */,
+				EC45C1EA23A119F4007DA3C8 /* icons.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EC45C1EC23A119F4007DA3C8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C1ED23A119F4007DA3C8 /* Classes */,
+				EC45C21423A119F4007DA3C8 /* Extensions */,
+				EC45C21F23A119F4007DA3C8 /* Utilities */,
+				EC45C22223A119F4007DA3C8 /* Delegates */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EC45C1ED23A119F4007DA3C8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C1EE23A119F4007DA3C8 /* CardCell.swift */,
+				EC45C1EF23A119F4007DA3C8 /* .gitkeep */,
+				EC45C1F023A119F4007DA3C8 /* CardsViewController.swift */,
+				EC45C1F123A119F4007DA3C8 /* CardPartTableViewCardPartsCell.swift */,
+				EC45C1F223A119F4007DA3C8 /* CardController.swift */,
+				EC45C1F323A119F4007DA3C8 /* Card Parts */,
+				EC45C21023A119F4007DA3C8 /* CardPartsFullScreenViewController.swift */,
+				EC45C21123A119F4007DA3C8 /* CardPartsViewController.swift */,
+				EC45C21223A119F4007DA3C8 /* CardPartsTheme.swift */,
+				EC45C21323A119F4007DA3C8 /* CardParts.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EC45C1F323A119F4007DA3C8 /* Card Parts */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C1F423A119F4007DA3C8 /* CardPartCollectionViewCardPartsCell.swift */,
+				EC45C1F523A119F4007DA3C8 /* CardPartCollectionView.swift */,
+				EC45C1F623A119F4007DA3C8 /* CardPartCenteredView.swift */,
+				EC45C1F723A119F4007DA3C8 /* CardPartTitleDescriptionView.swift */,
+				EC45C1F823A119F4007DA3C8 /* CardPartTableViewCell.swift */,
+				EC45C1F923A119F4007DA3C8 /* CardPartStackView.swift */,
+				EC45C1FA23A119F4007DA3C8 /* CardPartSliderView.swift */,
+				EC45C1FB23A119F4007DA3C8 /* CardPartSeparatorView.swift */,
+				EC45C1FC23A119F4007DA3C8 /* CardPartOrientedView.swift */,
+				EC45C1FD23A119F4007DA3C8 /* CardPartSpacerView.swift */,
+				EC45C1FE23A119F4007DA3C8 /* CardPartTitleView.swift */,
+				EC45C1FF23A119F4007DA3C8 /* CardPartBarView.swift */,
+				EC45C20023A119F4007DA3C8 /* CardPartButtonView.swift */,
+				EC45C20123A119F4007DA3C8 /* CardPartPagedView.swift */,
+				EC45C20223A119F4007DA3C8 /* CardPartRadioButton.swift */,
+				EC45C20323A119F4007DA3C8 /* CardPartVerticalSeparatorView.swift */,
+				EC45C20423A119F4007DA3C8 /* CardPartIconLabel.swift */,
+				EC45C20523A119F4007DA3C8 /* CardPartProgressBarView.swift */,
+				EC45C20623A119F4007DA3C8 /* CardPartPillLabel.swift */,
+				EC45C20723A119F4007DA3C8 /* CardPartView.swift */,
+				EC45C20823A119F4007DA3C8 /* CardPartTableView.swift */,
+				EC45C20923A119F4007DA3C8 /* CardPartTextField.swift */,
+				EC45C20A23A119F4007DA3C8 /* CardPartConfettiView.swift */,
+				EC45C20B23A119F4007DA3C8 /* CardPartHistogramView.swift */,
+				EC45C20C23A119F4007DA3C8 /* CardPartTextView.swift */,
+				EC45C20D23A119F4007DA3C8 /* CardPartMapView.swift */,
+				EC45C20E23A119F4007DA3C8 /* CardPartTriangleView.swift */,
+				EC45C20F23A119F4007DA3C8 /* CardPartImageView.swift */,
+			);
+			path = "Card Parts";
+			sourceTree = "<group>";
+		};
+		EC45C21423A119F4007DA3C8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C21523A119F4007DA3C8 /* CALayer.swift */,
+				EC45C21623A119F4007DA3C8 /* Date.swift */,
+				EC45C21723A119F4007DA3C8 /* Array.swift */,
+				EC45C21823A119F4007DA3C8 /* UIColor.swift */,
+				EC45C21923A119F4007DA3C8 /* NSObjectProtocol.swift */,
+				EC45C21A23A119F4007DA3C8 /* UIBezierPath.swift */,
+				EC45C21B23A119F4007DA3C8 /* String.swift */,
+				EC45C21C23A119F4007DA3C8 /* UIResponder.swift */,
+				EC45C21D23A119F4007DA3C8 /* UIButton.swift */,
+				EC45C21E23A119F4007DA3C8 /* UIFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC45C21F23A119F4007DA3C8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C22023A119F4007DA3C8 /* CardUtils.swift */,
+				EC45C22123A119F4007DA3C8 /* LayoutProxy.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EC45C22223A119F4007DA3C8 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EC45C22323A119F4007DA3C8 /* CardVisibilityDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +293,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC15C21A239FD477009AF54F /* CardParts.h in Headers */,
+				EC45C22423A119F4007DA3C8 /* CardParts.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC15C21D239FD477009AF54F /* Build configuration list for PBXNativeTarget "CardParts" */;
 			buildPhases = (
+				6B56DE0C0FB5262054D0FE46 /* [CP] Check Pods Manifest.lock */,
 				EC15C210239FD477009AF54F /* Headers */,
 				EC15C211239FD477009AF54F /* Sources */,
 				EC15C212239FD477009AF54F /* Frameworks */,
@@ -121,16 +356,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC45C22623A119F4007DA3C8 /* icons.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B56DE0C0FB5262054D0FE46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CardParts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EC15C211239FD477009AF54F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC45C24923A119F4007DA3C8 /* CardPartsFullScreenViewController.swift in Sources */,
+				EC45C23323A119F4007DA3C8 /* CardPartSliderView.swift in Sources */,
+				EC45C25623A119F4007DA3C8 /* UIFont.swift in Sources */,
+				EC45C25323A119F4007DA3C8 /* String.swift in Sources */,
+				EC45C24823A119F4007DA3C8 /* CardPartImageView.swift in Sources */,
+				EC45C23823A119F4007DA3C8 /* CardPartBarView.swift in Sources */,
+				EC45C22A23A119F4007DA3C8 /* CardsViewController.swift in Sources */,
+				EC45C23723A119F4007DA3C8 /* CardPartTitleView.swift in Sources */,
+				EC45C24423A119F4007DA3C8 /* CardPartHistogramView.swift in Sources */,
+				EC45C25423A119F4007DA3C8 /* UIResponder.swift in Sources */,
+				EC45C23B23A119F4007DA3C8 /* CardPartRadioButton.swift in Sources */,
+				EC45C22C23A119F4007DA3C8 /* CardController.swift in Sources */,
+				EC45C24F23A119F4007DA3C8 /* Array.swift in Sources */,
+				EC45C23523A119F4007DA3C8 /* CardPartOrientedView.swift in Sources */,
+				EC45C23423A119F4007DA3C8 /* CardPartSeparatorView.swift in Sources */,
+				EC45C24723A119F4007DA3C8 /* CardPartTriangleView.swift in Sources */,
+				EC45C23F23A119F4007DA3C8 /* CardPartPillLabel.swift in Sources */,
+				EC45C24023A119F4007DA3C8 /* CardPartView.swift in Sources */,
+				EC45C22B23A119F4007DA3C8 /* CardPartTableViewCardPartsCell.swift in Sources */,
+				EC45C23023A119F4007DA3C8 /* CardPartTitleDescriptionView.swift in Sources */,
+				EC45C23E23A119F4007DA3C8 /* CardPartProgressBarView.swift in Sources */,
+				EC45C23A23A119F4007DA3C8 /* CardPartPagedView.swift in Sources */,
+				EC45C25923A119F4007DA3C8 /* CardVisibilityDelegate.swift in Sources */,
+				EC45C23923A119F4007DA3C8 /* CardPartButtonView.swift in Sources */,
+				EC45C23223A119F4007DA3C8 /* CardPartStackView.swift in Sources */,
+				EC45C24D23A119F4007DA3C8 /* CALayer.swift in Sources */,
+				EC45C24123A119F4007DA3C8 /* CardPartTableView.swift in Sources */,
+				EC45C24B23A119F4007DA3C8 /* CardPartsTheme.swift in Sources */,
+				EC45C24523A119F4007DA3C8 /* CardPartTextView.swift in Sources */,
+				EC45C23C23A119F4007DA3C8 /* CardPartVerticalSeparatorView.swift in Sources */,
+				EC45C25123A119F4007DA3C8 /* NSObjectProtocol.swift in Sources */,
+				EC45C25223A119F4007DA3C8 /* UIBezierPath.swift in Sources */,
+				EC45C24223A119F4007DA3C8 /* CardPartTextField.swift in Sources */,
+				EC45C22823A119F4007DA3C8 /* CardCell.swift in Sources */,
+				EC45C24623A119F4007DA3C8 /* CardPartMapView.swift in Sources */,
+				EC45C25023A119F4007DA3C8 /* UIColor.swift in Sources */,
+				EC45C25723A119F4007DA3C8 /* CardUtils.swift in Sources */,
+				EC45C23623A119F4007DA3C8 /* CardPartSpacerView.swift in Sources */,
+				EC45C25523A119F4007DA3C8 /* UIButton.swift in Sources */,
+				EC45C24A23A119F4007DA3C8 /* CardPartsViewController.swift in Sources */,
+				EC45C22D23A119F4007DA3C8 /* CardPartCollectionViewCardPartsCell.swift in Sources */,
+				EC45C23123A119F4007DA3C8 /* CardPartTableViewCell.swift in Sources */,
+				EC45C22F23A119F4007DA3C8 /* CardPartCenteredView.swift in Sources */,
+				EC45C22E23A119F4007DA3C8 /* CardPartCollectionView.swift in Sources */,
+				EC45C24323A119F4007DA3C8 /* CardPartConfettiView.swift in Sources */,
+				EC45C25823A119F4007DA3C8 /* LayoutProxy.swift in Sources */,
+				EC45C24E23A119F4007DA3C8 /* Date.swift in Sources */,
+				EC45C24C23A119F4007DA3C8 /* CardParts.swift in Sources */,
+				EC45C23D23A119F4007DA3C8 /* CardPartIconLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +569,7 @@
 		};
 		EC15C21E239FD477009AF54F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616A017E5EE084A0B53133AB /* Pods-CardParts.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -283,6 +594,7 @@
 		};
 		EC15C21F239FD477009AF54F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93180A11BFCFCC26468A098C /* Pods-CardParts.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;

@@ -5,6 +5,7 @@
 //  Created by Roossin, Chase on 11/21/17.
 //  Copyright © 2017 Intuit, Inc. All rights reserved.
 //
+import UIKit
 
 typealias UIButtonTargetClosure = (UIButton) -> ()
 
