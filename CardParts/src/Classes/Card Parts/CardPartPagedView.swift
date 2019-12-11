@@ -31,6 +31,7 @@ public class CardPartPagedView: UIView, CardPartView {
 	public var currentPage: Int {
 		didSet{
 			updatePageControl()
+            updateContentOffset()
 		}
 	}
 	
@@ -40,9 +41,9 @@ public class CardPartPagedView: UIView, CardPartView {
 	fileprivate var scrollView: UIScrollView
 	fileprivate var height: CGFloat
 	
-	public init(withPages pages: [CardPartStackView], andHeight height: CGFloat) {
+    public init(withPages pages: [CardPartStackView], andWidth width: CGFloat = 250, andHeight height: CGFloat) {
 		
-		scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: 250, height: height))
+		scrollView = UIScrollView(frame: CGRect(x: 0, y: 0, width: width, height: height))
 		scrollView.translatesAutoresizingMaskIntoConstraints = false
 		scrollView.backgroundColor = UIColor.clear
 		scrollView.isScrollEnabled = true
@@ -91,6 +92,15 @@ public class CardPartPagedView: UIView, CardPartView {
 		super.updateConstraints()
 	}
 	
+    fileprivate func updateContentOffset() {
+        
+        // Update the scroll view scroll position to the appropriate page.
+        var bounds = scrollView.bounds
+        bounds.origin.x = bounds.width * CGFloat(currentPage)
+        bounds.origin.y = 0
+        scrollView.scrollRectToVisible(bounds, animated: animated)
+    }
+    
 	fileprivate func updatePageControl() {
 
 		var frame = CGRect.zero
